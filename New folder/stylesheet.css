@@ -1,0 +1,441 @@
+
+body
+{
+    color: #555555;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header
+ {
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+     url("bodybuilding.jpg")center fixed;
+     background-size: cover;
+     height: 100vh;
+}    
+
+.top_social_bar
+{
+    background-color:black;
+    color: blanchedalmond;
+    padding: 10px ;
+}
+
+.top_social_bar span
+{
+    padding-left: 10px;
+    color: white ;
+}
+
+.top_social_links a
+{
+    padding-right: 10px;
+    background-color:black;
+    color: white;
+    font-size: 12px;
+    transition: color 0.5s ;
+}
+
+.top_social_links a:hover,
+.top_social_links a:active
+{
+    color: orangered;
+    font-weight: bold;
+}
+
+.top_social_links i 
+{
+    font-size: 16px;
+    color: white;   
+    transition: color 0.5s ;
+}
+
+.top_social_links  i:hover,
+.top_social_links  i:active
+{
+    color: orangered;
+    font-weight: bold;
+}
+
+.registeration
+{
+    padding-right: 10px;
+}
+
+.registeration .register
+{
+    color: orangered ;
+    font-weight: bold;
+    transition: color 0.5s ;
+}
+
+.top-bar
+{
+    background-color: rgba(0,0,0,0.4);
+    padding: 0;
+    height: auto;
+}
+
+.top-bar li
+{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 0;
+    
+}
+
+.top-bar li a
+{
+    color: white;
+    font-size: 20px;
+    
+
+
+}
+
+.top-bar li a :active,
+.top-bar li a:hover
+{
+    color: orangered;
+    border-bottom:2px solid orangered  ; 
+    transition: color 0.6s , border-bottom 0.6s ;
+}
+
+.top-bar ul
+{
+    background-color: transparent;
+}
+
+    
+#small_logo
+{
+    height: 50px;
+    width: 100px;
+    margin-right: 90px;
+}
+
+#logo
+{
+    background: url("small_logo.png") center;
+    color: orange;
+    background-size:cover;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/********first section****/
+
+.info_section
+{
+    text-align: center;
+}
+
+.info_section h2::after
+{
+    display: block;
+    background-color: orange;
+    height: 2px;
+    width: 10%;
+    content: '';
+    margin: 30px auto 0 auto;
+}
+
+.info_section h3:active,
+.info_section h3:hover
+{
+    color: orangered;
+    border-bottom:2px solid orangered  ; 
+    transition: color 0.6s , border-bottom 0.6s ;
+}
+
+.info_section h3
+{
+    color: rgb(150, 150, 150);
+}
+
+.info_section i
+{
+    color: orange;
+    font-size: 70px;
+    margin-bottom: 3px;
+}
+ 
+.first_title p 
+{
+    width:70%;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+section
+{
+    margin-top: 80px;
+}
+
+/********second section   images****/
+
+.image_style
+{
+    padding: 0;
+}
+
+.images_section
+{
+    margin: 0;
+    font-size: 0;
+}
+
+.images_section li
+{
+    width:25%;
+    list-style: none;
+    float: left;
+    display: inline-block;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.images_section li img
+{
+    opacity: 0.8;
+    transition: all .6s ease-in;
+}
+
+.images_section li img:hover
+{
+    transform: scale(1.1) rotate(4deg);
+    opacity: 1;
+}
+
+/********third section   news****/
+.news
+{
+    background-color: rgb(245, 245, 245);
+    height: 900px;
+}
+
+.news_feeds a:hover
+{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.news_feeds h2
+{
+    text-align: center;
+}
+
+.news_feeds h2::after
+{
+    display: block;
+    background-color: orange;
+    height: 2px;
+    width:70%;
+    content: '';
+    margin: 10px auto 0 auto;
+}
+
+.news_feeds p
+{
+    text-align: center;
+}
+
+.news_area:hover
+{
+    transform: scale(1.2);
+}
+
+.news_area
+{
+    height: 700px;
+    transition: transform 0.6s ease-in-out;
+
+}
+
+.news_area
+{
+    padding: 240px 0;
+    color: white;
+    text-align: center;
+
+}
+
+.news_area:nth-child(1)
+{
+    background: linear-gradient(rgba(232,86,21,0.51),rgba(199,71,24,0.32)),
+    url("man-yoga-pose-1024x749.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.news_area:nth-child(2)
+{
+    background: linear-gradient(rgba(38,65,108,0.62),rgba(38,65,108,0.64)),
+    url("Fotolia_43492568_L1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.news_area:nth-child(3)
+{
+    background: linear-gradient(rgba(200,170,86,0.73),rgba(200,178,120,0.81)),
+    url("waist-management-man-with-tape-measure.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.news_area:nth-child(4)
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("dc5e974584c747550122045aed748e94.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/********footer  section****/
+
+footer
+{
+    background-color:#232323;
+}
+
+.row_bottom
+{
+    max-width: 70% !important; 
+    width: 100%;
+}
+
+.left_menu
+{
+    padding-right: 70px;
+    padding-top: 21px;
+}
+
+.bottom_menu a:hover
+
+{
+    color: orange;
+    border-bottom: 1px solid orange;
+
+}
+
+.bottom_menu a
+{
+    color: white;
+    transition:all 0.2s ease-in-out 0.2s ,border-bottom 0.2s ;
+}
+
+.bottom_disc h4
+{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform 0.4s ease-in-out, border-bottom 0.4s ;
+
+}
+
+.bottom_disc h4:after
+{
+    display: block;
+    background-color: orange;
+    height: 2px;
+    width:60%;
+    content: '';
+    margin: 10px auto 0 auto;
+    transition: transform 0.6s ease-in-out, border-bottom 0.6s ;
+    border-bottom: 2px; 
+}
+
+.bottom_disc h4:hover
+{
+    transform: scale(1.1) ;
+
+}
+
+
+.bottom_disc p
+{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+
+}
+
+#logo_info
+{
+    width: 150px; 
+    padding-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom_social
+{
+    background-color: rgba(226, 226, 226, 0.87);
+
+}
+
+
+
+.footer_bar_right
+{
+    background-color: rgba(194, 194, 194, 0.87);
+}
+
+
+.footer_bar_right a
+{
+    padding-right: 10px;
+    color: black;
+    transition: color 0.5s ;
+    size: 30%;
+}
+
+
+.footer_bar_right a:hover
+{
+    color: orangered;
+    font-weight: bold;
+}
+
+.footer_bar_left
+{
+    background-color: rgba(194, 194, 194, 0.87);
+    color: black;
+
+
+}
+
+.footer_bar_left span:nth-child(1)
+{
+    color: orange;
+
+}
+
+.footer_bar_left span:nth-child(2)
+{
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+section
+{
+    padding-top: 80px;
+}
+
